@@ -13,10 +13,9 @@ const Home: React.FC = () => {
     const { Share } = Plugins;
 
     const share = await Share.share({
-      title: 'See cool stuff',
-      text: 'Really awesome thing you need to see right meow',
+      title: 'Share Capacitor',
+      text: 'I deployed a React web app as a native mobile app using @capacitorjs in minutes!',
       url: 'https://capacitorjs.com',
-      dialogTitle: 'Share with buddies'
     });
   }
 
@@ -28,13 +27,13 @@ const Home: React.FC = () => {
     };
 
     getDeviceInfo();
-  }, [])
+  }, []);
 
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Capacitor Ionic Example</IonTitle>
+          <IonTitle>Capacitor Example</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent>
