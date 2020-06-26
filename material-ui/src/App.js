@@ -69,7 +69,7 @@ function App() {
 
     await Share.share({
       title: 'Share Capacitor',
-      text: 'I deployed a MaterialUI web app as a native mobile app using @capacitorjs in minutes!',
+      text: 'I deployed a MaterialUI web app as a native mobile app using @capacitorjs in minutes! \r\n\r\nTry it yourself here:',
       url: 'https://capacitorjs.com',
     });
   }
@@ -106,7 +106,7 @@ function App() {
         </ThemeProvider>
       </Box>
       <Box>
-        {photo && <img src={`data:image/jpeg;base64,${photo.base64String}`} alt="Camera" />}
+        {photo && <img src={`data:image/jpeg;base64,${photo.base64String}`} width="85%" alt="Camera" />}
       </Box>
       <Box>
       <div className={classes.tableDiv}>
