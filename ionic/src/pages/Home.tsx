@@ -2,7 +2,7 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButton, IonIco
 import React, { useEffect, useState } from 'react';
 import { shareSocialOutline } from 'ionicons/icons';
 
-import { Plugins, DeviceInfo, Share } from '@capacitor/core';
+import { Plugins, DeviceInfo } from '@capacitor/core';
 
 import './Home.css';
 
@@ -15,7 +15,7 @@ const Home: React.FC = () => {
     const share = await Share.share({
       title: 'See cool stuff',
       text: 'Really awesome thing you need to see right meow',
-      url: 'http://ionicframework.com/',
+      url: 'https://capacitorjs.com',
       dialogTitle: 'Share with buddies'
     });
   }
