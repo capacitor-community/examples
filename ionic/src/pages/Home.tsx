@@ -14,7 +14,7 @@ const Home: React.FC = () => {
 
     const share = await Share.share({
       title: 'Share Capacitor',
-      text: 'I deployed a React web app as a native mobile app using @capacitorjs in minutes!',
+      text: 'I deployed an Ionic React web app as a native mobile app using @capacitorjs in minutes!',
       url: 'https://capacitorjs.com',
     });
   }
