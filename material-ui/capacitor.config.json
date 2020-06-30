@@ -1,8 +1,8 @@
 {
-  "appId": "com.capacitorjs.examples.ionic",
-  "appName": "cap-ionic",
+  "appId": "com.capacitorjs.examples.materialui",
+  "appName": "cap-materialui",
   "bundledWebRuntime": false,
-  "npmClient": "npm",
+  "npmClient": "yarn",
   "webDir": "build",
   "plugins": {
     "SplashScreen": {
