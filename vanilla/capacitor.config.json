@@ -1,0 +1,13 @@
+{
+  "appId": "com.capacitorjs.examples.vanilla",
+  "appName": "cap-vanilla",
+  "bundledWebRuntime": true,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

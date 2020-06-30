@@ -1,0 +1,16 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "A vanilla JavaScript project with Capacitor integrated",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/android": "^2.2.0",
+    "@capacitor/cli": "^2.2.0",
+    "@capacitor/core": "^2.2.0"
+  }
+}
