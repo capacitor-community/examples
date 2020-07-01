@@ -1,0 +1,13 @@
+{
+  "appId": "com.example.vuejsvuetify",
+  "appName": "vuejs-vuetify",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
