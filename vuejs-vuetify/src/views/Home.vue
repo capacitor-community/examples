@@ -2,7 +2,7 @@
   <div>
     <v-app-bar>
       <v-icon style="margin-right: 12px;">{{ icons.lightning }}</v-icon>
-      <v-toolbar-title>Capacitor Example</v-toolbar-title>
+      <v-toolbar-title>Capacitor 💙 Vuetify</v-toolbar-title>
     </v-app-bar>
     <v-main class="content-padding content-centered">
       <v-btn color="primary" v-on:click="shareThis()">
