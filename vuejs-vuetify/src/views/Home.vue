@@ -35,7 +35,7 @@ export default class Home extends Vue {
       await this.$capacitorPlugins.Share.share({
         title: "Share Capacitor",
         text:
-          "I deployed an Ionic React web app as a native mobile app using @capacitorjs in minutes!",
+          "I deployed an Vue 2 + Vuetify web app as a native mobile app using @capacitorjs in minutes!",
         url: "https://capacitorjs.com"
       });
     } catch (e) {
