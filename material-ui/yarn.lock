@@ -1157,10 +1157,10 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@ionic/pwa-elements@^1.5.2":
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/@ionic/pwa-elements/-/pwa-elements-1.5.2.tgz#fa09df335edac62b48f350c38b12647310f1b967"
-  integrity sha512-OMa+el4XjnAx22P6S8CN2GGEfDgMkuwOxE5x5Cd/6ZDfcZKRuP//l4+JLF4YBvfvyPPHvaQLI+Ies7H2OTmAuA==
+"@ionic/pwa-elements@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@ionic/pwa-elements/-/pwa-elements-2.0.2.tgz#14c61c293f5f09b5cde50dbc0dd37e5d738798ac"
+  integrity sha512-5E0XKX65/oX9eD/qxsodPL/6KU3JCrLUMssoyF+il8hdWdtH4yx4hbz1rClpQDE4SEmQtVtrIYQwC585ZwaIPA==
 
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
   version "24.9.0"
