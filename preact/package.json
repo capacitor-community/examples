@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "preact-example",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "preact build --template public/index.html --no-prerender",
+    "serve": "preact serve",
+    "dev": "preact watch"
+  },
+  "devDependencies": {
+    "preact-cli": "^3.0.0-rc.18"
+  },
+  "dependencies": {
+    "@capacitor/cli": "^2.2.1",
+    "@capacitor/core": "^2.2.1",
+    "@capacitor/ios": "^2.2.1",
+    "@ionic/pwa-elements": "^3.0.0",
+    "preact": "^10.4.6",
+    "preact-compat": "^3.19.0",
+    "preact-material-components": "^1.6.1",
+    "preact-render-to-string": "^5.1.10",
+    "preact-router": "^3.2.1"
+  }
+}
