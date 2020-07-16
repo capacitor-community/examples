@@ -1,0 +1,26 @@
+{
+  "cwd": "/Users/mike/Documents/GitHub/framework7-capacitor",
+  "type": [
+    "web"
+  ],
+  "name": "Capacitor App",
+  "framework": "svelte",
+  "template": "single-view",
+  "bundler": "webpack",
+  "cssPreProcessor": "scss",
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false,
+  "webpack": {
+    "developmentSourceMap": true,
+    "productionSourceMap": true,
+    "hashAssets": false,
+    "preserveAssetsPaths": false,
+    "inlineAssets": true
+  }
+}
