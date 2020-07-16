@@ -41,7 +41,8 @@
 
   async function shareThis() {
     try {
-      await Plugins.Share.share({
+      const { Share } = Plugins;
+      await Share.share({
         title: "Share Capacitor",
         text:
           "I deployed an Svelte + Framework7 web app as a native mobile app using @capacitorjs in minutes!",
