@@ -32,7 +32,8 @@
 
   async function getDeviceInfo() {
     try {
-      deviceInfo = JSON.stringify(await Plugins.Device.getInfo() , null, 2)
+       const { Device } = Plugins
+      deviceInfo = JSON.stringify(await Device.getInfo() , null, 2)
     } catch(e) {
       console.error(e);
     }
