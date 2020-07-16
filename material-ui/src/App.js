@@ -69,7 +69,7 @@ function App() {
 
     await Share.share({
       title: 'Share Capacitor',
-      text: 'I deployed a MaterialUI web app as a native mobile app using @capacitorjs in minutes! \r\n\r\nTry it yourself here:',
+      text: 'I deployed a Material-UI web app as a native mobile app using @capacitorjs in minutes! \r\n\r\nTry it yourself here:',
       url: 'https://capacitorjs.com',
     });
   }
@@ -94,7 +94,7 @@ function App() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" className={classes.title}>
-            Capacitor 💙 MaterialUI
+            Capacitor Material-UI Demo
           </Typography>
         </Toolbar>
       </AppBar>
