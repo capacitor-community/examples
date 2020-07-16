@@ -12,7 +12,6 @@ export default function GeolocationPage() {
   const getCurrentPosition = async () => {
     const coordinates = await Geolocation.getCurrentPosition();
     setLoc(coordinates);
-    console.log('Current', coordinates);
   };
   return (
     <div class="page">
