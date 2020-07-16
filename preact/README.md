@@ -1,6 +1,10 @@
 # Preact + Material UI + Capacitor
 
-Sample app of using Preact and Capacitor together
+An example app using [Preact](https://preactjs.com) and [Capacitor](https://capacitorjs.com) for building high quality PWAs and native iOS/Android app. This brings together the ease of building apps with Preact with the ease of making native apps from Capacitor. For more information on both Preact and Capacitor, please see their docs.
+
+- [Preact](https://preactjs.com)
+- [Capacitor](https://capacitorjs.com)
+
 
 ## Install Capacitor
 
